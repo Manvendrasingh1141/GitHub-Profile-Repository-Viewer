@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Profile viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <header>
+        <div>
+          <h1>Github Profile Viewer</h1>
+           <p>view profile, repos, languages -- client side</p>
+        </div>   
+        <div class="search">
+          <input id="userInput" type="text">
+          <button id="btn" onclick="search_user()">Search</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="card profile" id="profileCard">
+          <img id="avatar" class="avatar" src="" alt="avatar" style="display:none">
+          <div class="name" id="fullName">—</div>
+          <div class="handle" id="login">@username</div>
+          <div class="bio" id="bio">No profile loaded</div>
+
+          <div class="actions">
+          <button class="smallbtn" id="openProfile" >Open on GitHub</button>
+          <button class="smallbtn" id="copyUrl" >Copy URL</button>
+          <button class="smallbtn" id="downloadJson" >Download JSON</button>
+          </div>
+
+          <div class="stats" id="stats">
+            <div class="stat">
+              <div class="num" id="reposCount">0</div>
+              <div class="lbl">Repositories</div>
+            </div>
+            <div class="stat">
+              <div class="num" id="followers">0</div>
+              <div class="lbl">Followers</div>
+            </div>
+            <div class="stat">
+              <div class="num" id="following">0</div>
+              <div class="lbl">Following</div>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div class="card repos" id="reposList">
+            <div class="empty">Search a username to show repositories</div>
+          </div>
+          
+      </main>
+
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
