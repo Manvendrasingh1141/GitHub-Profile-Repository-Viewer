@@ -19,4 +19,4 @@ A simple web app that fetches and displays **GitHub user details and repositorie
 (Add screenshot/gif of your app here)  
 
 ## 🔗 Live Demo  
-👉 [View Project Online](#)  
+👉 [https://comforting-mochi-adc710.netlify.app/](#)  
