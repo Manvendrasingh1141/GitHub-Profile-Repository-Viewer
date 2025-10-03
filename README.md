@@ -15,8 +15,6 @@ A simple web app that fetches and displays **GitHub user details and repositorie
 - **CSS3** – styling & responsive design  
 - **JavaScript (ES6)** – Fetch API for GitHub data  
 
-## 📷 Demo Preview  
-(Add screenshot/gif of your app here)  
 
 ## 🔗 Live Demo  
 👉 [https://comforting-mochi-adc710.netlify.app/](#)  
